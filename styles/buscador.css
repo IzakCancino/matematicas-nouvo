@@ -1,7 +1,8 @@
 input {
-    font-size: 2vw;
+    font-size: 1.5vw;
     float: right;
     margin: 2% 0%;
+    border: double black 3px;
 }
 
 header {
@@ -18,7 +19,6 @@ header {
 input[type="search"]{
 	padding: 1%;
 	width: 35%;
-	border: none;
 }
 
 .search{
@@ -43,12 +43,12 @@ tbody tr td{
 
 tbody tr td a{
 	text-decoration: none;
-	font-size: 2.5vw;
+	font-size: 2vw;
 	color: black;
 	display: block;
 	width: 100%;
 	height: 100%;
-	padding: 4% 0;
+	padding: 2% 0;
 	padding-left: 2%;
 	border: 2px solid #fff;
 }
