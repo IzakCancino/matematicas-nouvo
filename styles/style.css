@@ -1,6 +1,10 @@
 body {
     background: #121134;
     overflow-x: hidden;
+    background-image: url(../recourses/background.jpg);
+    background-size: 60% 30%;
+    background-repeat: repeat-x;
+    background-position: top;
 }
 
 h1 {
@@ -100,7 +104,34 @@ article a {
     color: rgba(255, 255, 255, 0.81);
 }
 
-article ul li,
-article a {
-    color: rgb(179, 111, 245);
+.articulo-fecha  {
+    font-style: italic
 }
+
+.articulo-fecha span {
+    font-weight: 600
+}
+
+article a.article-continuar {
+    float: right;
+    margin: 10px 0px;
+    font-weight: 900;
+}
+
+article a {
+    color: #8e6fec;
+}
+
+article p.articulo-intro {
+    font-size: 1.5vw;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.64);
+    text-align: center;
+    padding: 1%;
+    padding-top: 2.5%;
+    border: rgba(0, 0, 0, 0.74) solid 10px;
+}
+
