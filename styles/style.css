@@ -1,27 +1,4 @@
-body {
-    background: #121134;
-    overflow-x: hidden;
-    background-image: url(../recourses/background.jpg);
-    background-size: 67% auto;
-    background-repeat: repeat-x;
-    background-position: top;
-}
-
-h1 {
-    font-family: "Century Gothic";
-    font-size: 5vw;
-    text-align: center;
-    margin-top: 8%;
-    color: white;
-}
-
-h2 {
-    font-family: "Copperplate Gothic Bold";
-    font-size: 1.85vw;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-}
+/*ETIQUETAS*/
 
 p, 
 a, 
@@ -32,33 +9,6 @@ td {
     color: white;
     text-decoration-line: none;
 }
-
-.grupo-menu {
-    text-align: center;
-    display: flex;
-    font-size: 1.8vw;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 100%;
-}
-
-.items-menu {
-    padding: 1.25%;
-    margin: 0.2%;
-    flex-grow: 1;
-    flex-basis: 0px;
-    background: rgba(0, 0, 0, 0.47);
-}
-
-.item-menu-pag-pri,
-.item-menu-alg,
-.item-menu-arit,
-.item-menu-tri {
-    padding: 2.358% 0%
-}
-
-
 
 main {
     width: 100%;
@@ -79,6 +29,10 @@ article {
     box-shadow: rgba(0, 0, 0, 0.61) 0px -50px 100px -30px inset;
 }
 
+/*ID'S*/
+
+/*ANIDADOS*/
+
 main article:nth-child(1),
 main article:nth-child(2),
 main article:nth-child(3),
@@ -87,7 +41,6 @@ main article:nth-child(5),
 main article:nth-child(6){
     width: 100%;
 }
-
 
 article div {
     float: right;
@@ -103,10 +56,6 @@ article ul li,
 article a {
     font-size: 1.5vw;
     color: rgba(255, 255, 255, 0.81);
-}
-
-.articulo-fecha  {
-    font-style: italic
 }
 
 .articulo-fecha span {
@@ -128,18 +77,6 @@ article p.articulo-intro {
     color: rgba(255, 255, 255, 0.81);
 }
 
-footer {
-    background: rgba(0, 0, 0, 0.64);
-    text-align: center;
-    padding: 1%;
-    padding-top: 2.5%;
-    border: rgba(0, 0, 0, 0.74) solid 10px;
-    font-size: 1.5vw;
-    box-shadow: rgba(0, 0, 0, 0.61) 0px 0px 50px 20px inset;
-}
-
-
-
 article a {
     transition: all 100ms ease 0s 
 }
@@ -154,17 +91,8 @@ article a:active {
     color: #55438e;
 }
 
+/*CLASES*/
 
-div.grupo-menu a {
-    transition: all 100ms ease 0s
-}
-
-div.grupo-menu a:hover {
-    background: rgba(40, 39, 43, 0.47);
-    transform: scale(1.03);
-}
-
-div.grupo-menu a:active {
-    background: rgba(0, 0, 0, 0.86);
-    transform: scale(0.90);
+.articulo-fecha  {
+    font-style: italic
 }
