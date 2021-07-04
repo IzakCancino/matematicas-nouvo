@@ -1,0 +1,76 @@
+h3 {
+    color: white;
+    font-size: 3.7vw;
+    margin: 5%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+main {
+    margin: 0px 10%;
+    width: 80%
+}
+
+main div,
+main div p {
+    padding: 1.5%;
+}
+
+main div p {
+    color: rgba(0, 0, 0, 0.67);
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+    transition: all 100ms ease 0s
+}
+
+.indice-titulo {
+    color: white;
+    padding: 3%;
+}
+
+.indice-nivel-2 {
+    font-size: 2.5vw;
+}
+
+.tema-1 {
+    background: #532a11;
+}
+
+.tema-2 {
+    background: #5252ec
+}
+
+.tema-3 {
+    background: #ee3232
+}
+
+.tema-4 {
+    background: green
+}
+
+.indice-nivel-3 {
+    background: rgba(255, 255, 255, 0.20);
+    font-size: 2.2vw;
+}
+
+.indice-nivel-4 {
+    background: rgba(255, 255, 255, 0.30);
+    font-size: 1.9vw;
+}
+
+.indice-nivel-5 {
+    background: rgba(255, 255, 255, 0.40);
+    font-size: 1.7vw;
+}
+
+.indice-nivel-6 {
+    background: rgba(255, 255, 255, 0.50);
+    font-size: 1.4vw
+}
+
+main div.indice-nivel-1 p:hover {
+    color: rgba(0, 0, 0, 0.91);
+    border: solid 2px rgba(255, 255, 255, 0.63);
+    padding: 1vw
+}

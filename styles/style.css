@@ -5,7 +5,7 @@ a,
 h3, 
 li, 
 td {
-    font-family: Cambria;
+    font-family: "Copperplate Gothic Bold";
     color: white;
     text-decoration-line: none;
 }
@@ -47,6 +47,7 @@ article div {
 }
 
 article h3 {
+    font-family: "Century Gothic";
     font-size: 3vw;
     margin: 0px;
 }

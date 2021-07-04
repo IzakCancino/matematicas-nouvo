@@ -24,12 +24,13 @@ h2 {
 }
 
 a {
-    font-family: Cambria;
+    font-family: "Copperplate Gothic Bold";
     color: white;
     text-decoration-line: none;
 }
 
 footer {
+    font-family: "Copperplate Gothic Bold";
     background: rgba(0, 0, 0, 0.64);
     text-align: center;
     padding: 1%;
@@ -37,6 +38,7 @@ footer {
     border: rgba(0, 0, 0, 0.74) solid 10px;
     font-size: 1.5vw;
     box-shadow: rgba(0, 0, 0, 0.61) 0px 0px 50px 20px inset;
+    color: white;
 }
 
 /*ANIDADOS*/
@@ -68,6 +70,7 @@ div.grupo-menu a:active {
 }
 
 .items-menu {
+    font-family: "Century Gothic";
     padding: 1.25%;
     margin: 0.2%;
     flex-grow: 1;
