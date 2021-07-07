@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Matemáticas Nouvo - Inicio</title>
+    <title>Matemáticas Nouvo - Búsqueda</title>
         
     <link rel="shortcut icon" type="image/png" href="recourses/favicon.png">
-    
-    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=60d8e60a1db1e1001276f764&product=inline-share-buttons" async="async"></script>
     
     <script src="scripts/jquery.js"></script>
 	<script src="scripts/jquery.dataTables.min.js"></script>
@@ -15,10 +13,32 @@
 	<link rel="stylesheet" href="styles/up.css" type="text/css">
 	<script src="scripts/up.js"></script>
 	
-	
-	
 	<link rel="stylesheet" href="styles/style.css" type="text/css">
 	<link rel="stylesheet" href="styles/universal.css" type="text/css">
+	
+	<style>
+    
+        div.navegacion {
+            display: grid;
+            grid-template-columns: 20% auto 20%;
+            background: rgba(0, 0, 0, 0.56);
+            padding: 
+        }
+        
+        input#inputBusqueda {
+            grid-area: 1 / 2 / 2 / 3;
+            width: 100%;
+            height: 6vw;
+            font-size: 2.4vw;
+        }
+        
+        header {
+            margin-top: 2%;
+            margin-bottom: 1%;
+            padding: 0px;
+        }
+    
+    </style>
 	
 </head>
 <body>
@@ -26,8 +46,6 @@
     <!--FIN HEADER-->
     <div class="cont-iframe-header"><iframe src="../../../../../header.html" class="iframe-header"></iframe></div>
     <!--FIN HEADER-->
-    
-    <a href="../../../../busqueda.html" class="enlace-busqueda" title="Buscar..."><span><img src="../../../../recourses/lupa.png" class="imagen-busqueda"></span></a>
     
     <span class="ir-arriba icon-arrow-up2">&uarr;</span>
     
@@ -130,43 +148,12 @@
 			</table>
 		</div>
     </header>
-
-    <main>
-    <article class="articulo-indice">
-        
-        <h3>Indice</h3>
-        <div class="sharethis-inline-share-buttons"></div>
-        <p class="articulo-fecha">Por <span>Izak Cancino</span> 00/00/00</p>
-        
-        <p class="articulo-intro">Entra para ver el índice atraves de las entradas y los temas</p>
-        
-        <li><a href="mailto:cancinopalestinaizakdaniel@gmail.com?subject=Comentario%20entrada:%20&ldquo;Indice&rdquo;">Enviar un comentario</a></li>
-        <a href="entradas/indice.html" class="article-continuar">Continuar leyendo &raquo;</a>
-        
-    </article>
-    
-    
-    
-    <article class="articulo-base">
-        
-        <h3>Articulo 1</h3>
-        <p class="articulo-fecha">Por <span>Izak Cancino</span> 00/00/00</p>
-        
-        <p class="articulo-intro">Hola, soy un artículo de base, como te encuentras?</p>
-        
-        <li><a href="mailto:cancinopalestinaizakdaniel@gmail.com?subject=Comentario%20entrada:%20&ldquo;Indice&rdquo;">Enviar un comentario</a></li>
-        <a href="#" class="article-continuar">Continuar leyendo &raquo;</a>
-        
-    </article>
-    </main>
-    
     
     <!--FOOTER-->
     <div class="cont-iframe-footer"><iframe src="../../../../../footer.html" class="iframe-footer"></iframe></div>
     <!--FIN FOOTER-->
     
-    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=60d8e0c09253ec0012a7d3df&product=inline-share-buttons" async="async"></script>
-    
     <script src="scripts/buscador.js"></script>
+    
 </body>
 </html>

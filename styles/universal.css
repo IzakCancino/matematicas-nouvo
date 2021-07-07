@@ -1,86 +1,79 @@
 body {
     background: #121134;
     overflow-x: hidden;
-    background-image: url(../recourses/background.jpg);
-    background-size: 67% auto;
-    background-repeat: repeat-x;
-    background-position: top;
 }
 
-h1 {
-    font-family: "Century Gothic";
-    font-size: 5vw;
-    text-align: center;
-    margin-top: 8%;
-    color: white;
+.cont-iframe-header {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 33.5%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625)*/
 }
 
-h2 {
-    font-family: "Copperplate Gothic Bold";
-    font-size: 1.85vw;
-    font-weight: 500;
-    text-align: center;
-    color: white;
+/* Then style the iframe to fit in the container div with full height and width */
+.iframe-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+border: none;
 }
 
-a {
-    font-family: "Copperplate Gothic Bold";
-    color: white;
-    text-decoration-line: none;
+
+
+
+.cont-iframe-footer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 14%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625)*/
 }
 
-footer {
-    font-family: "Copperplate Gothic Bold";
-    background: rgba(0, 0, 0, 0.64);
-    text-align: center;
-    padding: 1%;
-    padding-top: 2.5%;
-    border: rgba(0, 0, 0, 0.74) solid 10px;
-    font-size: 1.5vw;
-    box-shadow: rgba(0, 0, 0, 0.61) 0px 0px 50px 20px inset;
-    color: white;
+/* Then style the iframe to fit in the container div with full height and width */
+.iframe-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+border: none;
 }
 
-/*ANIDADOS*/
 
-div.grupo-menu a {
-    transition: all 100ms ease 0s
+
+
+/*LUPA*/
+
+.imagen-busqueda {
+    width: 100%;
+    
 }
 
-div.grupo-menu a:hover {
-    background: rgba(40, 39, 43, 0.47);
-    transform: scale(1.03);
+a.enlace-busqueda span {
+    
 }
 
-div.grupo-menu a:active {
-    background: rgba(0, 0, 0, 0.86);
-    transform: scale(0.90);
+
+.enlace-busqueda {
+    z-index: 1000;
+    float: right;
+    width: 4.5%;
+    position: absolute;
+    bottom: 0px;
+    position: fixed;
+    margin-bottom: 6px;
+    opacity: 0.8;
+    transition: all 100ms ease 0s 
 }
 
-/*CLASES*/
-
-.grupo-menu {
-    text-align: center;
-    display: flex;
-    font-size: 1.8vw;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 100%;
-}
-
-.items-menu {
-    font-family: "Century Gothic";
-    padding: 1.25%;
-    margin: 0.2%;
-    flex-grow: 1;
-    flex-basis: 0px;
-    background: rgba(0, 0, 0, 0.47);
-}
-
-.item-menu-pag-pri,
-.item-menu-alg,
-.item-menu-arit,
-.item-menu-tri {
-    padding: 2.358% 0%
+.enlace-busqueda:hover {
+    transform: rotate(90deg) scale(1.4);
+    margin-bottom: 15px;
+    margin-left: 6px;
+    opacity: 1;
 }

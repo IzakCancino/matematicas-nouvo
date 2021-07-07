@@ -2,14 +2,20 @@ h3 {
     color: white;
     font-family: "Century Gothic";
     font-size: 3.7vw;
-    margin: 5%;
+    margin: 0%;
     margin-left: 10%;
     margin-bottom: 2%;
 }
 
 main {
-    margin: 0px 10%;
-    width: 80%
+    margin: 0px 0%;
+    width: 80%;
+    padding: 10%;
+    background: rgba(0, 0, 0, 0.57);
+}
+
+a {
+    text-decoration: none;
 }
 
 main div,
