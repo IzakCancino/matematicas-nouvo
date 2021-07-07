@@ -1,0 +1,83 @@
+body {
+    background: #121134;
+    overflow-x: hidden;
+    background-image: url(../recourses/background.jpg);
+    background-size: 67% auto;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+body {
+    background: #121134;
+    overflow-x: hidden;
+    background-image: url(../recourses/background.jpg);
+    background-size: 67% auto;
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+h1 {
+    font-family: "Century Gothic";
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 8%;
+    color: white;
+}
+
+h2 {
+    font-family: "Copperplate Gothic Bold";
+    font-size: 1.85vw;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+a {
+    font-family: "Copperplate Gothic Bold";
+    color: white;
+    text-decoration-line: none;
+}
+
+/*ANIDADOS*/
+
+div.grupo-menu a {
+    transition: all 100ms ease 0s
+}
+
+div.grupo-menu a:hover {
+    background: rgba(40, 39, 43, 0.47);
+    transform: scale(1.03);
+}
+
+div.grupo-menu a:active {
+    background: rgba(0, 0, 0, 0.86);
+    transform: scale(0.90);
+}
+
+/*CLASES*/
+
+.grupo-menu {
+    text-align: center;
+    display: flex;
+    font-size: 1.8vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.items-menu {
+    font-family: "Century Gothic";
+    padding: 1.25%;
+    margin: 0.2%;
+    flex-grow: 1;
+    flex-basis: 0px;
+    background: rgba(0, 0, 0, 0.47);
+}
+
+.item-menu-pag-pri,
+.item-menu-alg,
+.item-menu-arit,
+.item-menu-tri {
+    padding: 2.358% 0%
+}

@@ -1,0 +1,25 @@
+body {
+    background: #121134;
+    overflow: hidden;
+}
+
+footer {
+    font-family: "Copperplate Gothic Bold";
+    background: #0c0b24;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2.5%;
+    border: rgba(0, 0, 0, 0.74) solid 10px;
+    font-size: 1.5vw;
+    box-shadow: rgba(0, 0, 0, 0.61) 0px 0px 50px 20px inset;
+    color: white;
+}
+
+footer div.redes {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+footer div.redes div {
+    grid-area: 1 / 2 / 2 / 3;
+}

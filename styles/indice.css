@@ -22,7 +22,7 @@ main div p {
     font-weight: bolder;
     padding: 0px;
     margin: 0px;
-    transition: all 100ms ease 0s
+    transition: all 100ms ease 0s;
 }
 
 div.indice-nivel-2 a p {
@@ -81,5 +81,12 @@ div.indice-nivel-4 a p {
 main div.indice-nivel-1 p:hover {
     color: rgba(0, 0, 0, 0.91);
     border: solid 2px rgba(255, 255, 255, 0.63);
-    padding: 1vw
+    padding: 1vw;
+}
+
+main div.indice-nivel-1 p:active {
+    color: rgba(0, 0, 0, 0.20);
+    border: solid 2px rgba(255, 255, 255, 0.03);
+    transform: scale(0.95);
+    padding: 1vw;
 }
