@@ -1,21 +1,95 @@
-
-
-#iframe {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%; 
-    overflow: hidden;
+main {
+    padding: 2%;
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    overflow-x: visible !important;
+h3 {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 3vw;
+    text-indent: 10vw;
 }
+
+h4 {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 2.8vw;
+    text-indent: 8vw;
+}
+
+h5 {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 2.6vw;
+    text-indent: 6vw;
+}
+
+h6 {
+    color: #FFF;
+    font-family: "Century Gothic";
+    font-size: 2.4vw;
+    text-indent: 4vw;
+}
+
+p {
+    color: #FFF;
+    font-family: "Copperplate Gothic Bold";
+    font-size: 2vw;
+}
+
+.entrada-txt-bold {
+    font-weight: bold;
+}
+
+li {
+    color: #FFF;
+    font-family: "Copperplate Gothic Bold";
+    font-size: 2.2vw;
+    line-height: 1.5;
+}
+
+li span.entrada-li {
+    font-family: "Century Gothic";
+    font-size: 2.2vw;
+}
+
+
+cite {
+    color: #FFF;
+    font-family: "Copperplate Gothic Bold";
+    font-size: 2.4vw;
+    grid-area: 1 / 2 / 2 / 3;
+    background: #121134;
+    padding: 2%;
+    padding-left: 5%;
+}
+
+.entrada-cite-div {
+    display: grid;
+    grid-template-columns: 5% 1fr;
+    background: rgba(0, 0, 0, 0.36);
+}
+
+
+
+img.entrada-img {
+    width: 100%;
+    height: auto;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+div.entrada-img-div-l {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.entrada-img-div-m {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+div.entrada-img-div-s {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+}
+
+

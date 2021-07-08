@@ -77,3 +77,9 @@ a.enlace-busqueda span {
     margin-left: 6px;
     opacity: 1;
 }
+
+
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
